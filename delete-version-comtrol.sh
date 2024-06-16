@@ -1,4 +1,4 @@
-ls # to check if you can directly delete it or if it is hidden
 ls .git # to check if it is a git repo
 rm -rf .git # to delete it completely
-# Remember, after this, re-init the repo. 
+ls -r .git # to check if it is deleted
+# Remember, after this, you need to re-init the repo. 
