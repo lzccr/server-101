@@ -4,10 +4,9 @@ sudo apt install git
 # Config Info
 git config --global user.name "lzccr"
 git config --global user.email "someone@example.com"
-git init
+git config --global init.defaultBranch main # Add default branch
 
-# Add default branch
-git config --global init.defaultBranch main
+git init
 
 # Stage All Changes
 git add .

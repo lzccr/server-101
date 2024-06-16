@@ -1,7 +1,17 @@
-# My Notebook
+# Everything you want to know before you get a VPS
 
-Yes, I am a new developer.
+## Introduction
 
-- [x] I am learning
+In this tutorial, you will learn the basics about Linux servers.
 
-* If you can see this tell me to write a better readme
+## Details
+
+- [x] You will understand how to set up a WordPress webpage
+- [x] You will understand how to set up a MediaWiki webpage
+- [x] You will understand how to use git
+- [x] You will understand how to set up a server
+- [x] You will have fun
+
+## Enviroment used in this tutorial
+
+- Ubuntu 22.04 Server
