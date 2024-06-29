@@ -9,6 +9,7 @@ In this tutorial, you will learn the basics about Linux servers.
 - [x] You will understand how to set up a WordPress webpage
 - [x] You will understand how to set up a MediaWiki webpage
 - [x] You will understand how to use git
+- [x] You will know what is LICENSE by reading one.
 - [x] You will understand how to set up a server
 - [x] You will have fun
 

@@ -1,5 +1,14 @@
+# ===================================
+# ===========WARNING=================
+# Do not directly run this script. 
+# Manually copy and paste the commands. 
+# or type them into your terminal. 
+# ===================================
+
 # This is a file of my first server's setup. 
 # Example server/vps: ubuntu 22.04
+
+# If you want to quit anything, press Ctrl + C.
 
 # Run all these in your local machine
 # ------------------------------------
