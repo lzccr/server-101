@@ -70,7 +70,7 @@ arch-chroot /mnt # This will change the root to the installed system.
 neofetch # This will display the system information. Optional.
 
 
-useradd -m -g users -G wheel,storage,power,video,audio -s /bin/bash <username> # This will create a new user. Replace <username> with your desired username.
+useradd -m -g users -G wheel -s /bin/bash <username> # This will create a new user. Replace <username> with your desired username.
 passwd <username> # This will set the password for the new user.
 EDITOR=nano visudo # This will open the sudoers file. Uncomment the line `%wheel ALL=(ALL) ALL` by removing the `#`. Press `Ctrl+X`, then `Y`, then `Enter` to save and exit.
 su - <username> # This will switch to the new user.
@@ -80,8 +80,8 @@ sudo pacman -Syu # This will update the system, it also checks whether the new u
 ln -sf /usr/share/zoneinfo/America/Los_Angeles /etc/localtime # This will set the timezone. Replace America/Los_Angeles with your timezone.
 hwclock --systohc # This will set the hardware clock.
 nano /etc/locale.gen # This will open the locale.gen file. Uncomment the desired locale(s). Press `Ctrl+X`, then `Y`, then `Enter` to save and exit.
-locale-gen # This will generate the locales.
 nano /etc/locale.conf # This will open the locale.conf file. Add the following line: `LANG=en_US.UTF-8` (or the language you selected on locale.gen). Press `Ctrl+X`, then `Y`, then `Enter` to save and exit.
+locale-gen # This will generate the locales.
 nano /etc/hostname # This will open the hostname file. Add your hostname. Press `Ctrl+X`, then `Y`, then `Enter` to save and exit.
 nano /etc/hosts # This will open the hosts file. Add the following lines:
 # 127.0.0.1   localhost
