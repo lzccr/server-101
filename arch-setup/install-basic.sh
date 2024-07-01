@@ -129,7 +129,7 @@ ping google.com # This will check if you are connected to the internet.
 
 clear # This will clear the terminal. Optional. 
 
-pacman -Sy # This will update the package database.
+pacman -Syu # This will update the package database.
 pacman -Sy archlinux-keyring # This will update the keyring.
 
 
